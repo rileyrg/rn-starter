@@ -1,0 +1,17 @@
+#+TITLE: rn-starter tasks
+#+AUTHOR: rileyrg
+#+EMAIL: rileyrg at g m x dot de
+
+#+LANGUAGE: en
+#+STARTUP: showall
+
+#+EXPORT_FILE_NAME: README.md
+#+OPTIONS: toc:8 num:nil
+
+#+category: REACTNATIVE
+#+FILETAGS: :UDEMY:REACTNATIVE:
+
+#+PROPERTY: header-args:bash :tangle-mode (identity #o755)
+* TODO carry on inside lecture 14
+SCHEDULED: <2023-12-12 Tue>
+https://www.udemy.com/course/the-complete-react-native-and-redux-course/learn/lecture/15706390#overview
