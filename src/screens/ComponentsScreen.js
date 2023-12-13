@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, StyleSheet, View } from 'react-native';
 const ComponentsScreen = () => {
-    const name = "Homer Simpson"
+    const name = "Homer Simpson!"
     return <View>
         <Text style={styles.textTitle}>Getting started with react native.</Text>
         <Text style={styles.textName}>My name is {name}.</Text>
