@@ -3,9 +3,12 @@ import { View, Text, StyleSheet,Button } from 'react-native';
 import ImageDetail from '../components/ImageDetail';
 
 const ColorScreen = () => {
+    const [colors,setColors] = useState([]);
+    console.log(colors);
     return    (
         <View>
             <Button title="Add A Color" onPress = {()=> {
+                setColors([...colors,randomRGB()]);
             }}/>
             <View style={{height:100,width:100,backgroundColor: randomRGB()}}/>
         </View>
