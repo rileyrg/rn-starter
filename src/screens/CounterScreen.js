@@ -2,7 +2,7 @@ import React,{useReducer} from 'react';
 import { View, Text, StyleSheet,Button } from 'react-native';
 
 const reducer = (state,action) =>{
-    console.log(state);
+    console.log("in reducer",state);
     return {...state, counter: state.counter+action.amount};
 };
 
