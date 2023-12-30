@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
   viewStyle: {
     borderWidth: 1,
     borderColor: 'black',
-    height: 100,
+    height: 200,
     display:'flex',
     justifyContent:'space-between',
     flexDirection:'row',
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     width: 50,
     height: 50,
     backgroundColor: 'green',
-    alignSelf:'flex-end'
+    marginTop:50
   },
   viewThreeStyle: {
     borderWidth: 1,
